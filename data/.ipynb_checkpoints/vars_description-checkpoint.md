@@ -1,0 +1,62 @@
+- **title**: Title of the paper.
+- **idpaper**: Unique identifier for each paper.
+- **journal**: Journal where the paper was published.
+- **journal_num**: Journal code. [1] American Economic Review, [2] Econometrica, [3] Journal of Political Economy, [4] Quarterly Journal of Economics, [5] Review of Economic Studies.
+- **year**: Year of the article publication.
+- **month**: Month of the article publication.
+- **volume**: Volume of the journal in which the article was published.
+- **issue**: Issue of the journal in which the article was published.
+- **jelcodes**: JEL classification codes assigned by the authors.
+- **keywords**: Keywords specified by the authors for the article.
+- **abstract**: Abstract of the article.
+- **start_page**: Starting page of the article.
+- **end_page**: Ending page of the article.
+- **num_words**: Number of words in the abstract.
+- **num_words_90_flag**: Assigned a value of 1 if the abstract contains more than 90 words.
+- **idauthor**: Unique identifier for the author(s).
+- **author**: Name(s) of the author(s).
+- **prop_women**: Proportion of women among the authors.
+- **num_authors**: Total number of authors.
+- **gender_group_type**: Categorization of author gender group (e.g., only_male, only_female, both-gender).
+- **sole_or_coauthors**: Indicates whether the article was authored solely or in collaboration.
+- **num_pages**: Total number of pages of the article.
+- **num_pages_dmean**: Number of pages normalized (demeaned) based on the dataset mean.
+- **flesch_kincaid_grade_level**: Flesch-Kincaid grade level readability score for the article.
+- **log_flesch_kincaid_grade_level**: Logarithm of the Flesch-Kincaid grade level readability score.
+- **flesch_kincaid_reading_ease**: Flesch-Kincaid reading ease score.
+- **log_flesch_kincaid_reading_ease**: Logarithm of the Flesch-Kincaid reading ease score.
+- **dale_chall**: Dale-Chall readability score for the article.
+- **log_dale_chall**: Logarithm of the Dale-Chall readability score.
+- **coleman_liau_index**: Coleman-Liau readability index for the article.
+- **log_coleman_liau_index**: Logarithm of the Coleman-Liau readability index.
+- **automated_readability_index**: Automated readability index score for the article.
+- **log_automated_readability_index**: Logarithm of the automated readability index.
+- **AER**: Assigned a value of 1 if the paper was published in the *American Economic Review*.
+- **ECM**: Assigned a value of 1 if the paper was published in *Econometrica*.
+- **JPE**: Assigned a value of 1 if the paper was published in the *Journal of Political Economy*.
+- **QJE**: Assigned a value of 1 if the paper was published in the *Quarterly Journal of Economics*.
+- **RES**: Assigned a value of 1 if the paper was published in the *Review of Economic Studies*.
+- **coauthors**: Indicates the presence of co-authors.
+- **single_author**: Assigned a value of 1 if the article has a single author.
+- **both_genders**: Assigned a value of 1 if the author team includes both genders.
+- **only_females**: Assigned a value of 1 if the author team consists only of females.
+- **only_males**: Assigned a value of 1 if the author team consists only of males.
+- **num_sentences**: Number of sentences in the article's abstract.
+- **num_syllables**: Number of syllables in the article's abstract.
+- **jelcodes_letter**: First letter of the JEL classification assigned by the authors.
+- **jelcodes_text**: Full text of the JEL classification assigned by the authors.
+- **A_imp**, **B_imp**, ..., **Z_imp**: Assigned a value of 1 if the classification under the corresponding JEL category was imputed.
+- **JEL_flag**: Indicator of whether the article includes a JEL classification.
+- **log_num_pages**: Logarithm of the number of pages.
+- **log_num_words**: Logarithm of the number of words in the abstract.
+- **log_num_authors**: Logarithm of the number of authors.
+- **log_num_sentences**: Logarithm of the number of sentences in the abstract.
+- **log_num_syllables**: Logarithm of the number of syllables in the abstract.
+- **aer_fkgrade**, **ecm_fkgrade**, **jpe_fkgrade**, **qje_fkgrade**, **res_fkgrade**: Flesch-Kincaid grade levels for articles published in the respective journals.
+- **aer_dale**, **ecm_dale**, **jpe_dale**, **qje_dale**, **res_dale**: Dale-Chall scores for articles published in the respective journals.
+- **A_obs**, **B_obs**, ..., **Z_obs**: It is assigned a value of 1 if the article is observed to fall under the corresponding JEL category (A, B, C, etc.). 
+- **single**: Indicator for single-authored articles.
+- **isolated**: Indicator for whether the article is isolated in the dataset.
+- **tags**: All JEL codes for the article (observed or imputed).
+- **cluster**: Identifier for clusters of articles.
+- **length_cluster**: Length or size of the cluster. 
