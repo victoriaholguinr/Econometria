@@ -1,5 +1,5 @@
 # HD-Metrics
- 2025 +Líderes : 2do Curso de extensión universitaria del MEF - High Dimensional Econometrics
+ 2025 +Líderes : 2do Curso de extensión universitaria del MEF - High Dimensional Econometrics 
 ___
 
 **GitHub Repository**: [https://github.com/DTJCML/HD-Metrics](https://github.com/DTJCML/HD-Metrics)
